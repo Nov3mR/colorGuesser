@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <title>Color Guessing Game</title>
+</head>
+<body>
+    <div id="background">
+        <div id="toggle">
+            <button id="light">Light</button>
+            <button id="dark">Dark</button>
+        </div>
+        <h3> Click on the Bubble whose Color is equal to the <span> Guess Color</span></h3>
+        <div id="game">
+        <h2 class="heading">Color Guessing Game For Kids</h2>
+
+            <div id="panel">
+                 <div class="label">
+                    <span >TIME</span>
+                    <span class="scoreboard" id="time">60</span>
+                </div>
+                <div class="label">
+                    <span>GUESS</span>
+                    <span id="guess" class="scoreboard">??</span>
+
+                </div>
+                <div class="label">
+                    <span >SCORE</span>
+                    <span id="score" class="scoreboard">0</span>
+
+                </div>
+            </div>
+            <div id="canvas">
+                <div class="bubble" "></div>
+            </div>
+            <div  id="final">
+                <div id="over"> <h1> Game Over!! </h1> <h2> Your Score is <span id="points"> </span> </h2>  <br> <a href="#" class="btn"> Play Again </a></div>
+            </div>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
